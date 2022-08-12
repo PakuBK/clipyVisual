@@ -1,5 +1,5 @@
-# clipy
-a command line interface that can creates clips targeted at mobile plattforms.
+# clipy visual
+a graphilc user interface that can creates clips targeted at mobile plattforms.
 
 ### intention of clipy
 as a modern content creator you cannot come around tiktok, reels and youtube shorts. clipys intention is to make it easier for content creators to clip funny or interesting parts of their content and make it tiktok ready in seconds.
@@ -23,25 +23,6 @@ os.environ["IMAGEMAGICK_BINARY"] = r"C:\your\path\magick.exe"
 3. navigate to 'venv/Scripts' and type 'activate.bat' to activate the venv
 4. navigate back to the main directory
 5. pip install -r requirements.txt
-
-### usage
-put the video file in the input folder
-start main.py, specify the caption and the timestamps you want to clip from
-wait for clipy to put the rendered videos in the output folder
-
-### using true cli(py)
-this method is recommended if you want to only create a single clip
-use ```cli.py -h``` to display help
-place your file in the input folder or add the flag -y <link>
-```
-cli.py -c "<caption>" -t "<00:00-00:00>" -cr "credit" (optional) -y <link>
-```
-executing this command will generate a clip in the output folder
-
-### issues and limitations
-- only .mp4 files are currently supported
-- sometimes the youtube download fails
-- font size, color or position cannot be modified
 
 
 
